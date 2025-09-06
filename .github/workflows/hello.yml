@@ -1,0 +1,8 @@
+name: Hello
+on: [push, pull_request] # イベント(プッシュ時に起動)
+jobs:
+  hello: # job id
+    runs-on: ubuntu-latest # runner
+    steps: # ステップ定義
+      - run: echo "Hello World"
+      - uses: actions/checkout@v4 # アクションの呼び出し
