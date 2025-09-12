@@ -1,0 +1,14 @@
+changelog:
+  categories:
+    - title: Enhencement
+      labels:
+        - ehancement
+    - title: Bug Fix
+      labels:
+        - Bug
+        - Fix
+  exclude:
+    labels:
+      - dependency
+    authors:
+      - dependabot[bot]
